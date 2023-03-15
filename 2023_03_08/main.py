@@ -1,16 +1,20 @@
-# This is a sample Python script.
+"""
+Lab01 - Przywitanie z Pythonem
+"""
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# Wyświetlenie tekstu
+print("Witaj Python!!!")
 
+# Nowa linia
+print()
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# Podstawowe formatowanie tekstu (Python <= 2.7)
+print("Mam na imię %s. Mam %d lat." % ("Rafał", 21))
 
+# Podstawowe formatowanie tekstu (Python >= 3)
+print("Mam na imię {0}. Mam {1} lat.".format("Rafał", 21))
+# print("Mam na imię {}. Mam {} lat.".format("Rafał", 21))
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print()
+# Wpisywanie danych od użytkownika
+input("Ile masz lat?: ")
