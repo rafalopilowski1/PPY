@@ -5,4 +5,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+  <component name="ReSTService">
+    <option name="DOC_DIR" value="Z:\semestr4\PPY\Projects\PPY\2023_05_17\doc" />
+  </component>
 </module>
